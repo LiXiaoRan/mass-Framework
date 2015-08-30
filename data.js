@@ -32,7 +32,7 @@ define("data", ["lang"], function($) {
         var table = index === -1 ? add(owner) : caches[index];
         var getOne = typeof name === "string" //取得单个属性
         var cache = table;
-        //私有数据都是直接放到table中，普通数据放到table.data中
+        //私有数据都是直接放到table中，普通数据放到table.data中 哈哈
         if(!pvt) {
             table = table.data;
         }
